@@ -42,5 +42,9 @@
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Asegura que la imagen se muestre correctamente */
 }
+.resized-image {
+    width: calc(800px - 2 * 2cm); /* Ajusta el tamaño en píxeles, considerando la reducción en cm */
+    height: calc(600px - 2 * 2cm); /* Ajusta el tamaño en píxeles, considerando la reducción en cm */
+}
 
 
